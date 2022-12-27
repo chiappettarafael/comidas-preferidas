@@ -1,0 +1,132 @@
+body {
+    font-family: 'Unbounded', cursive;
+    min-width: 100vw;
+    background-color: #eef1f7;
+    overflow-x: hidden;
+}
+
+@keyframes strogonoff {
+    from {
+        width: 20px;
+    }
+
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes lasanha {
+    from {
+        width: 20px;
+    }
+
+    to {
+        width: 20%;
+    }
+}
+
+@keyframes churrasco {
+    from {
+        width: 20px;
+    }
+
+    to {
+        width: 45%;
+    }
+}
+
+@keyframes empadao {
+    from {
+        width: 20px;
+    }
+
+    to {
+        width: 25%;
+    }
+}
+
+@keyframes jilo {
+    from {
+        width: 20px;
+    }
+
+    to {
+        width: 10%;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content {
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #aeb8c2;
+    width: 40%;
+    padding: 20px;
+    margin: 5% auto;
+    background-color: #ffffff;
+}
+
+.strogonoff, .lasanha, .churrasco, .empadao, .jilo {
+    display: flex;
+}
+
+.nome {
+    width: 100px;
+    text-align: left;
+    margin: 0 20px;
+}
+
+.numero {
+    text-align: right;
+    margin-right: 3px;
+}
+
+.barra1, .barra2, .barra3, .barra4, .barra5 {
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: forwards;
+    animation-play-state: running;
+    width: 20px;
+    height: 50px;
+    color: #000000;
+}
+
+.barra1 {
+    animation-name: strogonoff;
+    background: linear-gradient(90deg, #1af089, #14d1e6);
+    border: 1px solid #000000;
+}
+
+.barra2 {
+    animation-name: lasanha;
+    background: linear-gradient(90deg, #1af089, #14d1e6);
+    border: 1px solid #000000;
+}
+
+.barra3 {
+    animation-name: churrasco;
+    background: linear-gradient(90deg, #1af089, #14d1e6);
+    border: 1px solid #000000;
+}
+
+.barra4 {
+    animation-name: empadao;
+    background: linear-gradient(90deg, #1af089, #14d1e6);
+    border: 1px solid #000000;
+}
+
+.barra5 {
+    animation-name: jilo;
+    background: linear-gradient(90deg, #1af089, #14d1e6);
+    border: 1px solid #000000;
+}
+
+.margem {
+    margin: 15px 0;
+}
+
